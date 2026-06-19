@@ -113,14 +113,23 @@ public class Main {
 
              switch (op) {
                  case 1: nuevaPelicula();
+                 break;
                  case 2: nuevaSerie();
+                 break;
                  case 3: nuevoPodcast();
-                 case 4: filtrarPorTipo();           // Ejecuta el filtro por tipo
+                 break;
+                 case 4: filtrarPorTipo();          // Ejecuta el filtro por tipo
+                     break;
                  case 5: mostrarTiemposTotales();     // Llama a obtenerTiempoTotal()
+                     break;
                  case 6: mostrarEpisodiosSeries();   // Llama a numero de episodios / totalEpisodios
+                     break;
                  case 7: mostrarDatosGenerales();     // Llama a obtenerDatosGenerales()
+                     break;
                  case 8: mostrarDatosParticulares();  // Llama a obtenerDatosParticulares()
+                     break;
                  case 9:  System.out.println("Regresa pronto a nuestra plataforma....!!!");
+                     break;
                  default: System.out.println("Opción no válida\n");
              }
          }
